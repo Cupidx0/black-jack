@@ -1,17 +1,18 @@
 body{
-    background-image: url(https://img.freepik.com/free-vector/flat-design-poker-table-background_23-2151016809.jpg?t=st=1736588864~exp=1736592464~hmac=c243c7c567f5d57a47319ecc31f536a9eb32efd50401cbeee758eff997d865a8&w=1380);
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20240522/pngtree-abstract-gold-scratches-on-a-black-background-image_15685278.jpg);
+    color: #fbfbfb;
 }
 #ans{
-    button{
-        list-style: none;
-        /*grid-row: auto;*/
-        border-radius: 5%;
-        width:40vw;
-        background-color: rgba(0, 0, 255, 0.245);
-        cursor: pointer;
-        /*justify-content: space-between;*/
-        padding: 5%;    
-    }
+}
+button{
+    list-style: none;
+    /*grid-row: auto;*/
+    border-radius: 5%;
+    border: none;
+    background-color: rgba(230, 230, 234, 0.712);
+    cursor: pointer;
+    /*justify-content: space-between;*/
+    padding: 3%;    
 }
 li{
     list-style: none;
@@ -49,7 +50,7 @@ li{
     object-fit: contain;
 }
 .cards img:hover{
-    transform: scale(2);
+    transform: scale(1.1);
     transition: 0.5s;
 }
 /*.card{
